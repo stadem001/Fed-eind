@@ -1,0 +1,664 @@
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header {
+    -ms-box-shadow: 1em 1em 1em white;
+    -moz-box-shadow: 1em 1em 1em white;
+    -webkit-box-shadow: 1em 1em 1em white;
+    -o-box-shadow: 1em 1em 1em white;
+    box-shadow: 0.2em 0.2em 0.2em white;
+    /*background-image: url(../img/cmd_beeldbank_meerdere_02.jpg);*/
+    width: 98%;
+}
+
+p {
+    color: black;
+}
+li {
+    color: black;
+}
+h1, h2, h3, h4, h5, h6{
+    color: black;
+}
+dt, dd {
+    color: black;
+}
+span {
+    color: black;
+}
+em {
+    color: black;
+}
+fieldset#stage label span {
+    color: black;
+}
+fieldset#project label span {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0.04em 0.04em 0em none;
+}
+a:hover {
+    font-size: 1.1em;
+    color: #FECB2F;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    text-decoration: underline;
+}
+nav ul li a:hover {
+    color: black;
+}
+
+header p a:hover {
+    color: black;
+}
+
+aside section article p a:hover {
+    color: black;
+}
+
+footer section#sitemap ul li a:hover {
+    color: black;
+    font-size: 1.5em;
+}
+
+footer section#sitemap ul li.organise {
+    display: flex;
+    flex-direction: column;
+}
+
+footer section#sitemap ul#rule {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%
+}
+ul#rule > li:nth-child(1) {
+    order: 0;
+    width: 40%;
+}
+
+ul#rule > li:nth-child(2) {
+    order: 0;
+    width: 40%;
+}
+
+ul#rule > li:nth-child(3) {
+    order: 1;
+    width: 40%;
+}
+
+ul#rule > li:nth-child(4) {
+    order: 1;
+    width: 40%;
+}
+li.organise > a {
+    font-size: 1.5em;
+}
+
+li.organise > a:hover {
+    text-decoration: none;
+}
+
+
+footer section#sitemap ul  {
+    margin-bottom: 2%;
+
+}
+
+footer section#sitemap ul li ul li a:hover {
+    color: black;
+}
+
+section#contact p a:hover {
+    color: black;
+}
+
+p#feedback a:hover {
+    color: black;
+}
+
+#cmd-logo:hover {
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
+#cmd-logo {
+    width: 50%;
+    background-color: transparent;
+    -ms-box-shadow: 1em 1em 1em black;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+h1 + p {
+    font-size: 1.2em;
+}
+button[type="submit"] {
+    background-color: white;
+    width: 15%;
+    height: 20%;
+    border-radius: 1em;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+button[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+input[type="submit"] {
+    background-color: white;
+    width: 15%;
+    height: 20%;
+    border-radius: 1em;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+input[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font: 200 1em Helvetica, Verdana, sans-serif;
+    border-bottom: 0.2em solid none;
+}
+
+li:last-child {
+    border: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 22em;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+    font-size: 1.1em;
+    background-color: none;
+    color: #FECB2F;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#sitemap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: auto;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 0;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+
+}
+body > main {
+    order: 1;
+    width: 80%;
+    background-color: white;
+
+}
+
+.headje {
+    color: black;
+}
+
+aside article a {
+    color: black;
+    text-decoration: underline;
+}
+
+aside article h3 {
+    color: black;
+}
+aside p {
+    color: black;
+}
+body > aside {
+    order: 1;
+    width: 20%;
+    background-color: #FECB2F;
+    border: 0.4em solid black;
+    margin-top: 5%;
+    border-radius: 1em 0em 0em 1em;
+    padding-left: 1%;
+}
+
+body > section {
+    order: 2;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+body > header {
+    order: 0;
+    background-color: #FECB2F;
+    width: 100%;
+    margin-top: -1%;
+    margin-left: -1.1%;
+    padding-left: 2%;
+    border-radius: 0em 0em 1em 1em;
+    background-image: url(../img/cmd_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.4em solid black;
+}
+section.related h2 {
+    position: absolute;
+    display: block;
+}
+section.related article {
+    margin-top: 5%;
+}
+
+body > footer {
+    order: 3;
+    background-color: #FECB2F;
+    border-radius: 1em 1em 0em 0em;
+    padding-left: 2%;
+    border: 0.4em solid black;
+}
+main > form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+form > fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 0;
+}
+
+#stage {
+    background-color: white;
+}
+
+#project {
+    background-color: white;
+}
+.hide {
+    display: none;
+}
+#picture-element {
+    margin-left: 40%;
+
+}
+legend {
+    background-color: white;
+    border-radius: 1em;
+}
+.beroepen {
+    width: 50%;
+}
+.navigator {
+    background-color: white;
+    border-radius: 1em 1em 1em 1em;
+    padding-left: 2%;
+    width: 75%;
+    border: 0.1em dotted black;
+}
+.no {
+    display: none;
+}
+
+/* 1000px breakpoint*/
+@media (max-width: 1000px) {
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 0;
+    justify-content: space-around;
+    width: 100%;
+}
+body > main {
+    order: 1;
+    width: 80%;
+}
+
+body > aside {
+    order: 1;
+    width: 20%;
+}
+
+body > section {
+    order: 2;
+    width: 100%;
+}
+body > header {
+    order: 0;
+    width: 100%;
+    background-size: 100%;
+}
+body > footer {
+    order: 3;
+    width: 100%;
+}
+
+button[type="submit"] {
+    width: 35%;
+    height: 20%;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+button[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+input[type="submit"] {
+    width: 35%;
+    height: 20%;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+input[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+main > form {
+    margin: auto;
+}
+#picture-element {
+    margin-left: 18%;
+}
+section.related article {
+    margin-top: 6%;
+}
+
+}
+ /* max grootte scherm 800 px, anders normale grootte. */
+@media (max-width: 800px) {
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 0;
+    justify-content: space-around;
+    width: 100%;
+}
+body > main {
+    order: 1;
+    width: 100%;
+}
+
+body > aside {
+    order: 3;
+    width: 100%;
+}
+
+body > section {
+    order: 2;
+    width: 100%;
+    display: block;
+}
+body > header {
+    order: 0;
+    width: 100%;
+}
+body > footer {
+    order: 4;
+    width: 100%;
+}
+
+button[type="submit"] {
+    width: 35%;
+    height: 20%;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+button[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+input[type="submit"] {
+    width: 35%;
+    height: 20%;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+input[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+main > form {
+    margin: auto;
+}
+#picture-element {
+    margin-left: 35%;
+}
+section.related article {
+    margin-top: 10%;
+}
+ul#rule > li:nth-child(1) {
+    order: 0;
+    width: 100%;
+}
+
+ul#rule > li:nth-child(2) {
+    order: 1;
+    width: 100%;
+}
+
+ul#rule > li:nth-child(3) {
+    order: 2;
+    width: 100%;
+}
+
+ul#rule > li:nth-child(4) {
+    order: 3;
+    width: 100%;
+}
+
+}
+
+ /* max grootte scherm 400 px, anders normale grootte. */
+@media (max-width: 400px) {
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 0;
+    justify-content: space-around;
+    width: 100%;
+}
+body > main {
+    order: 1;
+    width: 100%;
+}
+
+body > aside {
+    order: 3;
+    width: 100%;
+}
+
+body > section {
+    order: 2;
+    width: 100%;
+    display: block;
+}
+section.related article {
+    margin-top: 20%;
+}
+body > header {
+    order: 0;
+    width: 100%;
+}
+body > footer {
+    order: 4;
+    width: 100%;
+}
+
+button[type="submit"] {
+    width: 35%;
+    height: 20%;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+button[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+input[type="submit"] {
+    width: 35%;
+    height: 20%;
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: 600;
+}
+input[type="submit"]:hover {
+    -webkit-transform: rotateY(130deg);
+    -moz-transform: rotateY(130deg);
+    -o-transform: rotateY(130deg);
+    -ms-transform: rotateY(130deg);
+    transform: rotateY(130deg);
+    transition-duration: 5s;
+}
+main > form {
+    margin: auto;
+}
+#picture-element {
+    margin-left: 20%;
+}
+ul#rule > li:nth-child(1) {
+    order: 0;
+    width: 100%;
+}
+
+ul#rule > li:nth-child(2) {
+    order: 1;
+    width: 100%;
+}
+
+ul#rule > li:nth-child(3) {
+    order: 2;
+    width: 100%;
+}
+
+ul#rule > li:nth-child(4) {
+    order: 3;
+    width: 100%;
+}
+
+}
+
+/*boven 2000px grootte*/
+@media (min-width: 2000px) {
+body > main {
+    display: none;
+}
+
+body > aside {
+    display: none;
+}
+
+body > section {
+    display: none;
+}
+body > header {
+    display: none;
+}
+body > footer {
+    display: none;
+}
+.no {
+    display: block;
+    width: 80%;
+    height: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
